@@ -3,9 +3,6 @@ import random
 from tkinter import Tk, Canvas
 
 
-
-# window = Tk()
-
 def distance2(point_list: list):
     dist2_sum = 0
     for i in range(len(point_list) - 1):
@@ -88,5 +85,4 @@ if __name__ == "__main__":
     # button = Button(root, text="Im Button", command=on_click)
     # button.pack()
     on_click()
-    print("hello")
     root.mainloop()
